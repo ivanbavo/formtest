@@ -113,12 +113,6 @@
 				var tipoDoc;
 				var valorDoc;
 				var route = "{{ url('datos') }}";
-				function ValidarDatos(){
-					
-					
-					
-					
-				}
 
 				function EnviarConsulta(){
 
@@ -175,8 +169,6 @@
 					else{
 					}
 
-					
-					//ValidarDatos();
 					if (isValid) {
 						EnviarConsulta();
 						
